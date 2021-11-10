@@ -12,7 +12,7 @@ import routes from './routes'
  */
 
 export default route(function (/* { store, ssrContext } */) {
-  // FIXME using createWebHasHistory leads to 404 after login redirection
+  // FIXME using createWebHashHistory leads to 404 after login redirection
   const createHistory = createWebHistory // Works as expected
   // const createHistory = createWebHashHistory
 
