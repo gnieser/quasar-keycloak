@@ -6,7 +6,7 @@ Create a realm, a user and a client: [https://www.keycloak.org/getting-started/g
 
 Client Root URL should be `http://localhost:4200`
 
-Switch to createWebHashHistory in [src/router/index.js] to see the 404 error after login redirection.
+Switch to createWebHashHistory in [src/router/index.js](src/router/index.js) to see the 404 error after login redirection.
 
 More information:
 
