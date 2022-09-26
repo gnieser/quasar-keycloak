@@ -1,8 +1,10 @@
 # Configure local Keycloak instance
 
-Download: [https://www.keycloak.org/getting-started]()
+Download your preferred distribution of Keycloak [https://www.keycloak.org/]()
 
-Create a realm, a user and a client: [https://www.keycloak.org/getting-started/getting-started-zip]()
+Create a realm `myrealm` and a client `myclient`. Also create a user.
+
+For simplicity, the realm name and client name are hardcoded in [src/boot/keycloak.js](src/boot/keycloak.js)
 
 Client Root URL should be `http://localhost:4200`
 
